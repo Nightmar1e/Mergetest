@@ -319,6 +319,211 @@ picksbar-container {
     
     background-position: center;
     background-repeat: no-repeat;
+
+    width: 100%;
+    height: 10rem;
+    position: fixed;
+    width: 50px; 
+    height: 50px;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 25px 25px;
+    background-color: rgb(109, 109, 109);
+    padding: 10px;
+    padding-bottom: 5px;
+    border-radius: 25px;
+  }
+
+
+.textImageLeft {
+    /* border: green solid 2px; */
+    width: 100%;
+    height: 1.5rem;
+
+.top-content {
+    /* border: green solid 2px; */
+    background-color: #FFFFFF;
+    width: 100%;
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerText {
+    /* border: green solid 2px; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topTextTitle {
+    /* border: green solid 2px; */
+    width: 90%;
+    color: #252D38;
+    font-size: 2rem;
+
+    padding-left: 1.6rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    display: flex;
+}
+
+.topText {
+    /* border: green solid 2px; */
+
+    color: #90989B;
+    width: 80%;
+
+    display: flex;
+}
+
+.galleryColumnRight {
+    /* border: green solid 2px; */
+    width: 47%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.containerImgRight {
+    /* border: green solid 3px; */
+    width: 100%;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.imgRight {
+    border: orange solid 4px;
+    background-image: url(images/Screenshot\ from\ 2023-05-30\ 12-25-18.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 20vh;
+
+}
+
+.textImageRight {
+    /* border: green solid 2px; */
+
+    width: 100%;
+    height: 1.5rem;
+
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+    padding-bottom: 6rem;
+
+    text-align: start;
+}
+
+.container-picks {
+    /* border: green solid 2px; */
+    background: url();
+    
+    background-repeat: no-repeat;
+    background-position: left;
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: black dashed 3px;
+    background: rgb(68,55,207);
+    background: linear-gradient(90deg, rgba(68,55,207,1) 0%, rgba(249,113,163,1) 100%);
+    border-radius: 1.2rem 1.2rem 0rem 0rem;
+
+    width: 100%;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+.container-picksGradient {
+    /* border: green solid 2px; */
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+picksbar-container {
+    /* border: green solid 2px; */
+    width: 100%;
+    
+    margin-top: 2rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.picksImage {
+    width: 90%;
+    margin-bottom: 5rem;
+}
+
+.container-photos {
+    /* border: green solid 2px; */
+    background-color: #F0F3F8;
+    padding: 0.3rem;
+
+    width: 70%;
+
+    margin-top: 1rem;
+    margin-left: 2rem;
+
+    display: flex;
+    
+
+}
+
+.containerGallery {
+    /* border: green solid 2px; */
+    width: 100%;
+    height: 20rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.galleryColumnLeft {
+    /* border: green solid 2px; */
+    width: 47%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.containerImgLeft {
+    /* border: rgb(197, 142, 40) solid 3px; */
+
+    width: 100%;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.imgLeft {
+    /* border: green solid 2px; */
+    background-image: url(images/Screenshot\ from\ 2023-05-30\ 12-23-47.png);
+    
+    background-position: center;
+    background-repeat: no-repeat;
     width: 100%;
     height: 10rem;
   
@@ -423,6 +628,58 @@ picksbar-container {
     justify-content: start;
    
 
+.timer-container {
+    /* border: green solid 2px; */
+    width: 100%;
+
+    margin-top: 5rem;
+    /* margin-bottom: 5rem; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timerImage {
+    /* border: green solid 2px; */
+    width: 90%;
+    height: auto;
+
+    margin-bottom: 2rem;
+}
+
+.timerTextTitle {
+    /* border: green solid 2px; */
+    width: 90%;
+    color: #252D38;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    font-size: 2rem;
+}
+
+.timerText1,
+.timerText2,
+.timerText3 {
+    /* border: green solid 2px; */
+    width: 90%;
+    color: #90989B;
+    margin-left: 1rem;
+
+    font-size: 1.2rem;
+}
+
+.timerButtonContainer {
+    /* border: green solid 2px; */
+    width: 90%;
+
+    margin-top: 2rem;
+    margin-left: 1rem;
+    /* padding-left: 5rem; */
+
+    display: flex;
+    justify-content: start;
+   
+
 }
 
 .lightbox {
@@ -434,6 +691,30 @@ picksbar-container {
 
     width: 7rem;
     height: 2.2rem;
+
+    margin-right: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details {
+    border: black solid 1px;
+    color: black;
+    
+    border-radius: 3rem 3rem;
+
+    width: 7rem;
+    height: 2.2rem;
+}
+
+.platformIntegration-container {
+    /* border: green solid 2px; */
+    width: 90%;
+
+    margin-top: 5rem;
+
 
     margin-right: 1rem;
 
@@ -702,6 +983,154 @@ picksbar-container {
 }
 
 
+/* 
+////////////////////////////////////
+desktop version 
+///////////////////////////////////*/
+
+
+
+@media screen and (min-width: 900px) {
+    
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .bottom-content .toptop{
+        padding-top: 60px;
+    }
+    .bottom-content .Pricings{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 100%;
+        padding-top: 20px;
+        margin-bottom: -50px;
+        
+    }
+
+
+
+
+
+
+    .bottom-content .Standard{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+        margin-right: 0%;
+
+    }
+    .bottom-content .Standard .Downl{
+        margin-left: 0;
+        margin-bottom: 0;
+        left: 12%;
+        top: 104%;
+
+    }
+    .bottom-content .Advanced{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+    }
+    .bottom-content .Advanced .Downl{
+        margin-left: 0;
+        margin-bottom: 0;
+        left: 47%;
+        top: 104%;
+
+    }
+    .bottom-content .Complete{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+    }    
+    .bottom-content .Complete .Downl{
+        margin-left: 0;
+        margin-bottom: 0;
+        left: 82%;
+        top: 104%;
+
+    }
+    
+    
+    
+    
+    
+    .teamPhoneImg{ 
+        background-image: url("conclusion-background.jpg");
+        padding: 5%;
+        margin: 5%;
+        text-align: justify;
+        text-align-last: center;
+        /* filter: brightness(5%); */
+        background-size: cover;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .phone-image{
+        display: flex;
+        width: 40%;
+    }
+    .teamBut{
+        display: flex;
+        width: 40%;
+        flex-direction: column;
+
+    }
+    .team p{
+        font-size: 18px;
+    }
+    .ToDownload{
+        margin-left: -150px;
+        display: flex;
+        justify-content: center;
+    }
+    .IosBut{
+        width: 40%;
+
+    }
+    .AndBut{
+        width: 40%;
+
+    }
+    .IOSDownload{
+        display: flex;
+        width: 80%;
+
+    }
+    .ANDROIDDownload{
+        display: flex;
+        width: 80%;
+
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .footer .Copy p{
+        font-size: 20px;
+        color: #707070;
+        width: 80%;
+        margin-left: 5%;
+    }
+
+}
+
+
+
+
+
+
 .section__1 .section__text p {
     font-size: 18px;
     margin-top: 30px;
@@ -870,7 +1299,6 @@ desktop version
             flex-direction: row;
          }
          
-=======
    .top-content {
     /* border: red solid 2px; */
     width: 100%;
@@ -1296,4 +1724,4 @@ desktop version
     .rightPersonName {
         font-weight: 600;
     }
-}
+  }
